@@ -22,5 +22,5 @@ if now.weekday() in working_days:
                 connection.sendmail(
                     from_addr="kibirigekalules@gmail.com",
                     to_addrs=f"{email}",
-                    msg=f"Subject:Quote of the day\n\n{random_quote}"
+                    msg=f"Subject:Quote of the day\r\n{random_quote}\r\r\nKind Regards,\r\nSamuel KK."
                 )
